@@ -5,10 +5,11 @@ def line(arr)
 		  # print " ",index+1,". ",name
 		  str += "#{index+1}. #{name} "
 		end
+		puts str
 	else
 		puts "The line is currently empty."
 	end
-  puts str
+  
 end
 
 def take_a_number(arr,name)
