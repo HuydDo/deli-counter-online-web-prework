@@ -1,6 +1,6 @@
 def line(arr)
   if !arr.empty?
-		str = "The line is currently: "
+		str = "The line is currently:"
 		arr.each_with_index do |name, index|
 		  # print " ",index+1,". ",name
 		  str = str + " #{index+1}. #{name}"
