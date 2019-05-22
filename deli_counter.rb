@@ -8,7 +8,7 @@ def line(arr)
 	else
 		puts "The line is currently empty."
 	end
-  str
+  puts str
 end
 
 def take_a_number(arr,name)
